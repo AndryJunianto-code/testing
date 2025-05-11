@@ -15,6 +15,7 @@ import com.example.smartstudy.domain.model.Session
 import com.example.smartstudy.domain.model.Subject
 import com.example.smartstudy.domain.model.Task
 import com.example.smartstudy.ui.theme.SmartStudyTheme
+import com.example.smartstudy.ui.theme.components.Test
 import com.example.smartstudy.ui.theme.dashboard.DashboardScreen
 import com.example.smartstudy.ui.theme.subject.SubjectScreen
 import com.example.smartstudy.ui.theme.task.TaskScreen
@@ -25,7 +26,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             SmartStudyTheme {
-               TaskScreen()
+               Test()
             }
         }
     }
